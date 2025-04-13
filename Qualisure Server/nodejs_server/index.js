@@ -7,7 +7,7 @@ const cors = require("cors"); // You'll need to install this: npm install cors
 const { initializeApp, cert } = require("firebase-admin/app");
 const { getStorage } = require("firebase-admin/storage");
 const { getFirestore } = require("firebase-admin/firestore");
-const serviceAccount = require("./serviceAccountKey.json");
+// const serviceAccount = require("./serviceAccountKey.json");
 
 // Initialize Firebase
 initializeApp({
