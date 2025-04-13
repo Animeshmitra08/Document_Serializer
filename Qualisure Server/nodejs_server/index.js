@@ -11,8 +11,7 @@ const { getFirestore } = require("firebase-admin/firestore");
 
 // Initialize Firebase
 initializeApp({
-  credential: cert(serviceAccount),
-  storageBucket: "neurodocs-1e21a.firebasestorage.app", // Keep your original bucket name
+  // storageBucket: "neurodocs-1e21a.firebasestorage.app", // Keep your original bucket name
 });
 
 const app = express();
