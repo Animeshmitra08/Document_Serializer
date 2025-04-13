@@ -23,4 +23,4 @@ dist-ssr
 *.sln
 *.sw?
 # Local env files
-serviceAccountKey.json
+Qualisure Server/nodejs_server/serviceAccountKey.json
